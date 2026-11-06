@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-06T15:40:25Z",
+  "source_repo": "y1-community/q3-stock-rom",
+  "mirror_repo": "y1-community/q3-stock-rom-mirror",
+  "title_prefix": "Portable Flashing Package: ",
+  "updater_repo": "y1-community/updater-ce-neo",
+  "platforms": [
+    {
+      "key": "windows",
+      "os": "windows",
+      "arch": "x86-64",
+      "suffix": "-windows.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "windows-arm64",
+      "os": "windows",
+      "arch": "arm64",
+      "suffix": "-windows-arm64.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "linux",
+      "os": "linux",
+      "arch": "x86-64",
+      "suffix": "-linux.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "linux-arm64",
+      "os": "linux",
+      "arch": "arm64",
+      "suffix": "-linux-arm64.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "macos",
+      "os": "macos",
+      "arch": "universal",
+      "suffix": "-macos.zip",
+      "layout": "beside_dmg"
+    }
+  ],
+  "releases": [
+    {
+      "tag": "MX2E-WVGA_TM-WV3.23-20250528",
+      "title": "Portable Flashing Package: MX2E-WVGA_TM-WV3.23-20250528",
+      "source_title": "MX2E-WVGA_TM-WV3.23-20250528",
+      "source_url": "https://github.com/y1-community/q3-stock-rom/releases/tag/MX2E-WVGA_TM-WV3.23-20250528",
+      "published_at": "2026-11-05T06:32:56Z",
+      "prerelease": false,
+      "source_notes": "Original Timmkoo Q3 software **MX2E-WVGA_TM-WV3.23-20250528**.\n\n- Model: **Q3** (Timmkoo)\n- Package: `rom_q3.zip`\n- Build tag: `MX2E-WVGA_TM-WV3.23-20250528`\n- Build date: 2025-05-28\n\n## Install\n\n1. Download `rom_q3.zip` (every numbered volume if the release has more than one, then `cat rom_q3.zip.* > rom_q3.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_q3.zip` | 272.9 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=Q3>",
+      "assets": [
+        {
+          "name": "rom_q3-windows.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "windows",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 557978799,
+          "sha256": "744c536e00ef20c512a28f3ba02712ee3704be684732a5e4800410614c472812",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-windows.zip"
+        },
+        {
+          "name": "rom_q3-linux.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "linux",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 673821871,
+          "sha256": "9060a0d8a7493d9f5ac139c2379569578409de05ab1fcece1e33a1268890ca18",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-linux.zip"
+        },
+        {
+          "name": "rom_q3-macos.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "macos",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 530706303,
+          "sha256": "303f8772ee29a932bc706fe57e6a2bd992a7b614ba29830a2e46515d231a871c",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_q3.zip",
+        "SHA256SUMS.MX2E-WVGA_TM-WV3.23-20250528"
+      ],
+      "stats_url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/stats.txt"
+    },
+    {
+      "tag": "MX2D-WVGA_TM-WV3.20-20250618",
+      "title": "Portable Flashing Package: MX2D-WVGA_TM-WV3.20-20250618",
+      "source_title": "MX2D-WVGA_TM-WV3.20-20250618",
+      "source_url": "https://github.com/y1-community/q3-stock-rom/releases/tag/MX2D-WVGA_TM-WV3.20-20250618",
+      "published_at": "2026-11-05T06:32:25Z",
+      "prerelease": false,
+      "source_notes": "Original Timmkoo Q3 software **MX2D-WVGA_TM-WV3.20-20250618**.\n\n- Model: **Q3** (Timmkoo)\n- Package: `rom_q3.zip`\n- Build tag: `MX2D-WVGA_TM-WV3.20-20250618`\n- Build date: 2025-06-18\n\n## Install\n\n1. Download `rom_q3.zip` (every numbered volume if the release has more than one, then `cat rom_q3.zip.* > rom_q3.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_q3.zip` | 267.2 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=Q3>",
+      "assets": [
+        {
+          "name": "rom_q3-windows.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "windows",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 552014961,
+          "sha256": "f154bace6785c616efc79b91514a64be68ad9b5b97aeccbb69ed4dfe626a4abd",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-windows.zip"
+        },
+        {
+          "name": "rom_q3-linux.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "linux",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 667858033,
+          "sha256": "dce54e58152f34a474cf9c23aae6f6294e374bfb65cb7407d3902f29a4ea7078",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-linux.zip"
+        },
+        {
+          "name": "rom_q3-macos.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "macos",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 524742465,
+          "sha256": "d7bfee9dc684816a1dee31c824f5c35df5c47f7fc47943a5653b295ece3ca6ef",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_q3.zip",
+        "SHA256SUMS.MX2D-WVGA_TM-WV3.20-20250618"
+      ],
+      "stats_url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/stats.txt"
+    },
+    {
+      "tag": "MX2-ES-WV4.01-20250619",
+      "title": "Portable Flashing Package: MX2-ES-WV4.01-20250619",
+      "source_title": "MX2-ES-WV4.01-20250619",
+      "source_url": "https://github.com/y1-community/q3-stock-rom/releases/tag/MX2-ES-WV4.01-20250619",
+      "published_at": "2026-11-05T06:31:54Z",
+      "prerelease": false,
+      "source_notes": "Original Timmkoo Q3 software **MX2-ES-WV4.01-20250619**.\n\n- Model: **Q3** (Timmkoo)\n- Package: `rom_q3.zip`\n- Build tag: `MX2-ES-WV4.01-20250619`\n- Build date: 2025-06-19\n\n## Install\n\n1. Download `rom_q3.zip` (every numbered volume if the release has more than one, then `cat rom_q3.zip.* > rom_q3.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_q3.zip` | 269.0 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=Q3>",
+      "assets": [
+        {
+          "name": "rom_q3-windows.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "windows",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 557964398,
+          "sha256": "456f2c5ce3f49e7d8844e58667015dc9e979f02eef020009d382025c7eb74168",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-windows.zip"
+        },
+        {
+          "name": "rom_q3-linux.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "linux",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 673807470,
+          "sha256": "11bfd984908626401dd0bf2c71ddcf1e522bba5a512f2709049d080d42766276",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-linux.zip"
+        },
+        {
+          "name": "rom_q3-macos.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "macos",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 530691907,
+          "sha256": "75861e9728ab2528abfdb6299ecdea4847b3a9f993c47ddc1b314374ad1b1c07",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_q3.zip",
+        "SHA256SUMS.MX2-ES-WV4.01-20250619"
+      ],
+      "stats_url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/stats.txt"
+    }
+  ],
+  "source_readme": {
+    "path": "README.md",
+    "source_path": "README.md",
+    "source_name": "README.md",
+    "source_url": "https://github.com/y1-community/q3-stock-rom/blob/main/README.md",
+    "url": "https://raw.githubusercontent.com/y1-community/q3-stock-rom-mirror/main/README.md"
+  }
+}
