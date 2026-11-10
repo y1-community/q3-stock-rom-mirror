@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T20:00:37Z",
+  "generated_at": "2026-11-10T21:40:18Z",
   "source_repo": "y1-community/q3-stock-rom",
   "mirror_repo": "y1-community/q3-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -11,35 +11,48 @@
       "os": "windows",
       "arch": "x86-64",
       "suffix": "-windows.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "windows-arm64",
       "os": "windows",
       "arch": "arm64",
       "suffix": "-windows-arm64.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
+    },
+    {
+      "key": "windows-legacy",
+      "os": "windows",
+      "arch": "x86",
+      "suffix": "-windows-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
     },
     {
       "key": "linux",
       "os": "linux",
       "arch": "x86-64",
       "suffix": "-linux.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "linux-arm64",
       "os": "linux",
       "arch": "arm64",
       "suffix": "-linux-arm64.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
       "suffix": "-macos.zip",
-      "layout": "beside_dmg"
+      "layout": "beside_dmg",
+      "legacy": false
     }
   ],
   "releases": [
@@ -58,8 +71,8 @@
           "platform": "windows",
           "model": "Q3",
           "type": "Stock",
-          "size": 492332889,
-          "sha256": "36f10c519dbb5bd8fd55aed4513abc5dd277df94ab9b5bf45b67641d50fca017",
+          "size": 491476906,
+          "sha256": "cbaed8566054c88bf7a55e3c9ad9fee1b30a9776642a0cf11632046d73351906",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-windows.zip"
         },
         {
@@ -68,9 +81,19 @@
           "platform": "linux",
           "model": "Q3",
           "type": "Stock",
-          "size": 673821871,
-          "sha256": "029da7d779512ae8e9cdad9fcabf6a6b175760e599afd24679b387fa91881405",
+          "size": 645597260,
+          "sha256": "59a7dbbe247deff65f9720444b4261f831a6b116a9215f447d424927a8ebd082",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-linux.zip"
+        },
+        {
+          "name": "rom_q3-linux-arm64.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "linux-arm64",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 470502202,
+          "sha256": "f015641267a32206ceb6fa79a6a1a4b787922095aeeafcef3cc0074cc0023f99",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-linux-arm64.zip"
         },
         {
           "name": "rom_q3-macos.zip",
@@ -78,8 +101,8 @@
           "platform": "macos",
           "model": "Q3",
           "type": "Stock",
-          "size": 405988551,
-          "sha256": "470e0de4f6da5a2c20e818d200ab36ba9308d876598b199166d84e5244c064a8",
+          "size": 405524217,
+          "sha256": "f05cc8f363b4d9fe0b481acd68b06c28e97ad463f431c9de028f66d3ba5294b6",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-macos.zip"
         }
       ],
@@ -104,8 +127,8 @@
           "platform": "windows",
           "model": "Q3",
           "type": "Stock",
-          "size": 486369051,
-          "sha256": "b708f029015196f3134cc211379c98177d4ba1a903a28c7293c7b3ca8b0a59c9",
+          "size": 485508946,
+          "sha256": "f544afba71e4a480b0d5b2a66318a1bdbc0738f52a1a9acf880e8169616e4b0f",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-windows.zip"
         },
         {
@@ -114,9 +137,19 @@
           "platform": "linux",
           "model": "Q3",
           "type": "Stock",
-          "size": 667858033,
-          "sha256": "492ca68ff2805c3364337dd1cabce4a1c53755a62e751a231fa83e2bcd2c38cc",
+          "size": 639629300,
+          "sha256": "ead7f33eefa5333b65b24a1f99b5e5c31cab6273f9b6c121e9d82c3a72190d84",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-linux.zip"
+        },
+        {
+          "name": "rom_q3-linux-arm64.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "linux-arm64",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 464534242,
+          "sha256": "0eac200975076cf9244cbdb6d19fa630477608f4500172f88d582ee77912cb54",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-linux-arm64.zip"
         },
         {
           "name": "rom_q3-macos.zip",
@@ -124,8 +157,8 @@
           "platform": "macos",
           "model": "Q3",
           "type": "Stock",
-          "size": 400024713,
-          "sha256": "870644617c2110786c0cc9a4bf680a744ffcfb3fd9c412e302035162bf584c81",
+          "size": 399556257,
+          "sha256": "75c64f6c8aed9efb7ec6b78d73ed4bf949d8693a802d7ebd22c6264126265e64",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-macos.zip"
         }
       ],
@@ -150,8 +183,8 @@
           "platform": "windows",
           "model": "Q3",
           "type": "Stock",
-          "size": 492318488,
-          "sha256": "e5ef7f46d9d066bb36822dcc89904c65522791ae52d107db91f66b79a2ef04da",
+          "size": 491463477,
+          "sha256": "613daa2a9230d8200df0a2407aa19d7f4873211c42927d2e504b5495068177af",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-windows.zip"
         },
         {
@@ -160,9 +193,19 @@
           "platform": "linux",
           "model": "Q3",
           "type": "Stock",
-          "size": 673807470,
-          "sha256": "e71a3a884c0217c977764b9b696753a27a8ed7bb25448ce9ab8e3ef0b0cf55b7",
+          "size": 645583831,
+          "sha256": "ecec8bc7ce9a9672cde53cd4f9200d904f516b30923a6fd159d321303548e5e6",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-linux.zip"
+        },
+        {
+          "name": "rom_q3-linux-arm64.zip",
+          "source_asset": "rom_q3.zip",
+          "platform": "linux-arm64",
+          "model": "Q3",
+          "type": "Stock",
+          "size": 470488773,
+          "sha256": "a6f63a06899424769f93562e0a29f26c154f646cde2690868aab79bc5d7a8b5d",
+          "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-linux-arm64.zip"
         },
         {
           "name": "rom_q3-macos.zip",
@@ -170,8 +213,8 @@
           "platform": "macos",
           "model": "Q3",
           "type": "Stock",
-          "size": 405974155,
-          "sha256": "e48a649fe89db20df19265063225c98adf3d08311edd8c22896b975afc302c84",
+          "size": 405510793,
+          "sha256": "fa2cd5ba3fd4d62fd1f66d90e253306d142bcbf177d5189375c5cd8d87e94342",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-macos.zip"
         }
       ],
