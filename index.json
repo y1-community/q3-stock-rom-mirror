@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T04:01:36Z",
+  "generated_at": "2026-11-21T11:23:21Z",
   "source_repo": "y1-community/q3-stock-rom",
   "source_fallback_repo": "ryan-specter/q3-stock-rom",
   "mirror_repo": "y1-community/q3-stock-rom-mirror",
@@ -106,7 +106,7 @@
           "model": "Q3",
           "type": "Stock",
           "size": 587246956,
-          "sha256": "02912530c1e879d5ce9d3bf437260793398b6430d16838b48b82f26ca16b827a",
+          "sha256": "c55c2d4f551d5231e539f86a531b503bac5bc401ede20d02fabd165c5a3f8dce",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-linux.zip"
         },
@@ -117,7 +117,7 @@
           "model": "Q3",
           "type": "Stock",
           "size": 412153677,
-          "sha256": "17d8a9c482a99114f69770d6a9c8a35bbeb4071d9bfff30ae35de46fd6e9ada2",
+          "sha256": "261d2f98f4eb3cfc0f0f7dd935e1a656a8e183cbe1474b44e6f34e822cf7cd9c",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q3-stock-rom-mirror/releases/download/MX2E-WVGA_TM-WV3.23-20250528/rom_q3-linux-arm64.zip"
         },
@@ -189,7 +189,7 @@
           "model": "Q3",
           "type": "Stock",
           "size": 581278996,
-          "sha256": "10542414a02822a63dc3b272d5e2d5560a36855ea8550f58aed0dc92455dfe15",
+          "sha256": "a30596f1407b21a39d4ced54ba5c393894601554cf3e6f9ad15a7744e9344df8",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-linux.zip"
         },
@@ -200,7 +200,7 @@
           "model": "Q3",
           "type": "Stock",
           "size": 406185717,
-          "sha256": "c3e36ac8aa2d0b516514829f939175e4187968a5afbede3270cd71c5ee904243",
+          "sha256": "c885769d3a17772f52d6ee9313a5cc03472f94f6f2be48e7fc655b3fdc30cfe6",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q3-stock-rom-mirror/releases/download/MX2D-WVGA_TM-WV3.20-20250618/rom_q3-linux-arm64.zip"
         },
@@ -272,7 +272,7 @@
           "model": "Q3",
           "type": "Stock",
           "size": 587233527,
-          "sha256": "42bbcb5b56adf064fb4071b1eccc2300d8e263a703ebf8cbc1abbf10538cef0a",
+          "sha256": "2be6066c245b50914449709ab48be936a57d80b79ed431b0ff6e2b05931bcb42",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-linux.zip"
         },
@@ -283,7 +283,7 @@
           "model": "Q3",
           "type": "Stock",
           "size": 412140248,
-          "sha256": "f53471dac413f18a0fb8e055b7c41e7942d05aaa2bec3cdae03080857ac551d3",
+          "sha256": "8e034479feb357816683af027ee87c3d88744d258435be5d0ced601cca2eaa7d",
           "url": "https://github.com/y1-community/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q3-stock-rom-mirror/releases/download/MX2-ES-WV4.01-20250619/rom_q3-linux-arm64.zip"
         },
